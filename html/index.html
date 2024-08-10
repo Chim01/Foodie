@@ -13,7 +13,7 @@
 </head>
 <body>
     <!-- Nav Bar -->
-    <nav class="p-[40px] flex w-fit ml-auto mr-auto">
+    <nav class="p-[40px] flex w-fit ml-auto mr-auto box-content">
         <div>
             <img src="../assets/Foodieland..svg" class="w-[110px] h-[30px]">
         </div>
@@ -42,7 +42,7 @@
     <hr class="stroke-[#000000] stroke-1">
 
     <!-- Hot Recipes -->
-     <div class="flex mt-[40px]">
+     <div class="flex mt-[40px] box-content">
 
         <!-- Rectangular background -->
         <img src="../assets/left rectangle.png" class="mr-[40px]">
@@ -69,15 +69,20 @@
                     </span>
                 </div>
                 
-                <div class="mt-[54px]">
+                <div class="mt-[54px] w-fit flex gap-[120px]">
 
                     <span class="bg-[#E7FAFE] rounded-[30px] flex w-fit h-fit p-[10px] gap-2 self-center">
                         <img src="../assets/John Smith.svg" class="w-[50px] h-[50px]">
                         <span class="inter font-bold text-[16px]">
                             John Smith
-                            <P>15 March 2022</P>
+                            <P class="font-normal text-[14px]">15 March 2022</P>
                         </span>
                     </span>
+
+                    <button class="bg-black text-white rounded-[16px] p-[18px_36px] inter font-semibold text-[14px] w-fit h-fit self-center">
+                        View Recipes <i class="icofont-play-alt-2 ml-2"></i>
+                    </button>
+
                 </div>
             </div>
             <img src="../assets/Badge.svg" class="w-[150px] h-[150px] absolute ml-[550px] mt-[50px]">
@@ -87,5 +92,79 @@
         <!-- Rectangular background -->
         <img src="../assets/right rectangle.png" class="ml-[40px]">
      </div>
+
+     <!-- Categories -->
+      <div class="p-[40px] mt-[152px] box-content">
+        <div class="grid grid-cols-2">
+            <p class="inter font-semibold text-[48px]">Categories</p>
+            <button class="bg-[#E7FAFE] inter font-semibold text-[16px] rounded-[16px] p-[20px_25px] w-fit h-fit self-center ml-[510px]">
+                View all Categories
+            </button>
+        </div>
+        <div class="grid grid-cols-6 mt-[80px] p-[40px]">
+            <a href="">
+                <img src="../assets/Breakfast.png">
+            </a>
+            <a href="">
+                <img src="../assets/Vegan.png" >
+            </a>
+            <a href="">
+                <img src="../assets/Meat.png" >
+            </a>
+            <a href="">
+                <img src="../assets/Dessert.png" >
+            </a>
+            <a href="">
+                <img src="../assets/Lunch.png" >
+            </a>
+            <a href="">
+                <img src="../assets/Chocolate.png" >
+            </a>
+        </div>
+      </div>
+
+      <!-- Simple and tasty recipes -->
+       <section class="p-[40px] mt-[183px] box-content">
+            <p class="inter font-semibold text-[48px] text-center">Simple and tasty recipes</p>
+            <p class="inter font-normal text-[16px] leading-7 mt-[24px] w-[45%] h-fit ml-auto mr-auto text-center">Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ad minim </p>
+
+            <div class="grid grid-cols-3 p-[40px] gap-y-[50px]">
+                <a href="" >
+                    <img src="../assets/Big and Juicy Wagyu Beef Cheeseburger.png" alt="">
+                </a>
+                <a href="">
+                    <img src="../assets/Fresh Lime Roasted Salmon with Ginger Sauce.png" alt="">
+                </a>
+                <a href="">
+                    <img src="../assets/Strawberry Oatmeal Pancake with Honey Syrup.png" alt="">
+                </a>
+                <a href="">
+                    <img src="../assets/Fresh and Healthy Mixed Mayonnaise Salad.png" alt="">
+                </a>
+                <a href="">
+                    <img src="../assets/Chicken Meatballs with Cream Cheese.png" alt="">
+                </a>
+                <a href="">
+                    <img src="../assets/Ads.png" alt="">
+                </a>
+                <a href="">
+                    <img src="../assets/Fruity Pancake with Orange & Blueberry.png" alt="">
+                </a>
+                <a href="">
+                    <img src="../assets/The Best Easy One Pot Chicken and Rice.png" alt="">
+                </a>
+                <a href="">
+                    <img src="../assets/The Creamiest Creamy Chicken and Bacon Pasta.png" alt="">
+                </a>
+            </div>
+       </section>
+
+       <!-- Learn More -->
+        <div class="grid grid-cols-2">
+            <div>
+                <p class="inter font-semibold text-[48px] tracking-wide">Everyone can be a chef in their own kitchen</p>
+            </div>
+            <img src="../assets/Learn more.png" alt="">
+        </div>
 </body>
 </html>
