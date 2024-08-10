@@ -1,2 +1,2 @@
-Foodies website. 
+Foodies website, 
 Learn how to cook
